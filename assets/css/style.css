@@ -498,6 +498,20 @@ section {
   border: 2px solid #1f5297;
 }
 
+.resume .resume-item button{
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  margin: 4px; 
+}
+
+.resume .resume-item button:hover {
+  background: #37b3ed;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -629,6 +643,7 @@ section {
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
+  margin-top: 30px;
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -661,6 +676,20 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.portfolio-details .portfolio-description .portfolio-significance {
+  padding: 30px;
+  margin-top: 30px;
+  box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
+}
+
+.portfolio-details .portfolio-description .portfolio-significance h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
 }
 
 /*--------------------------------------------------------------
@@ -1072,3 +1101,4 @@ section {
     padding-right: 20px 15px;
   }
 }
+
