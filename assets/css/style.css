@@ -675,6 +675,7 @@ section {
 }
 
 .portfolio-details .portfolio-description p {
+  font-size: 15px;
   padding: 0;
 }
 
@@ -690,6 +691,10 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-significance ul {
+  font-size: 15px;
 }
 
 /*--------------------------------------------------------------
