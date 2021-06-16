@@ -200,30 +200,41 @@
                       </ul>
                     </li>
                   </ul>
-                  <strong>Please Note: </strong>Here, breakdown indicates breakdown of data into active, deceased, and
-                  recovered, whereas state-wise breakdown and district-wise breakdown indicates breakdown of data
-                  according to state and district, respectively.
+                  <p style="margin-top: 10px;"><strong>Please Note: </strong>Here, breakdown indicates breakdown of data
+                    into active, deceased, and
+                    recovered, whereas state-wise breakdown and district-wise breakdown indicates breakdown of data
+                    according to state and district, respectively.</p>
                 </li>
               </ul>
             </div>
             <div class="portfolio-info" id="details">
               <h3>Implementation Details</h3>
-              <ul>
-                <li>The data is sourced from: </br>
-                  &nbsp;&nbsp;-&nbsp;&nbsp; <a
-                    href="https://api.covid19india.org/states_daily.json">https://api.covid19india.org/states_daily.json</a></br>
-                  &nbsp;&nbsp;-&nbsp;&nbsp; <a
-                    href="https://api.covid19india.org/state_district_wise.json">https://api.covid19india.org/state_district_wise.json</a></br>
-                  &nbsp;&nbsp;-&nbsp;&nbsp; <a
-                    href="https://api.covid19india.org/state_test_data.json">https://api.covid19india.org/state_test_data.json</a></br>
+              <ul style="list-style-type: disc; padding-left: 20px;">
+                <li>The data is sourced from:
+                  <ul style="list-style-type: circle; padding-left: 20px;">
+                    <li style="margin-top: 10px;"><a
+                        href="https://api.covid19india.org/states_daily.json">https://api.covid19india.org/states_daily.json</a>
+                    </li>
+                    <li><a
+                        href="https://api.covid19india.org/state_district_wise.json">https://api.covid19india.org/state_district_wise.json</a>
+                    </li>
+                    <li><a
+                        href="https://api.covid19india.org/state_test_data.json">https://api.covid19india.org/state_test_data.json</a>
+                    </li>
+                  </ul>
                 </li>
-                <li>JSON data is converted into dataframe and stored in 3 csv files namely</br>
-                  &nbsp;&nbsp;-&nbsp;&nbsp;<a
-                    href="https://github.com/rkasale28/Covid-Data-Visualization/blob/master/district_level.csv">district_level.csv</a></br>
-                  &nbsp;&nbsp;-&nbsp;&nbsp;<a
-                    href="https://github.com/rkasale28/Covid-Data-Visualization/blob/master/state_level_daily.csv">state_level_daily.csv</a></br>
-                  &nbsp;&nbsp;-&nbsp;&nbsp;<a
-                    href="https://github.com/rkasale28/Covid-Data-Visualization/blob/master/state_level_tested_daily.csv">state_level_tested_daily.csv</a></br>
+                <li>JSON data is converted into dataframe and stored in 3 csv files namely
+                  <ul style="list-style-type: circle; padding-left: 20px;">
+                    <li style="margin-top: 10px;"><a
+                      href="https://github.com/rkasale28/Covid-Data-Visualization/blob/master/district_level.csv">district_level.csv</a>
+                    </li>
+                    <li><a
+                      href="https://github.com/rkasale28/Covid-Data-Visualization/blob/master/state_level_daily.csv">state_level_daily.csv</a>
+                    </li>
+                    <li><a
+                      href="https://github.com/rkasale28/Covid-Data-Visualization/blob/master/state_level_tested_daily.csv">state_level_tested_daily.csv</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>The data is classified according to district, state and country</li>
                 <li>This web application is designed using Streamlit</li>
