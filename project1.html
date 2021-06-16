@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Youtube Data Analyser</title>
+  <title>Student Record Management</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -75,7 +75,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Youtube Data Analyser</h2>
+          <h2>Student Record Management</h2>
         </div>
 
       </div>
@@ -112,17 +112,16 @@
               <h3>Internship Information</h3>
               <ul>
                 <li></li>
-                <li><strong>Category</strong>: Machine Learning, Web Development</li>
-                <li><strong>Github URL</strong>: <a href="https://github.com/rkasale28/Youtube-Data-Analyser">Click
+                <li><strong>Category</strong>: Native App Development</li>
+                <li><strong>Github URL</strong>: <a
+                    href="https://github.com/rkasale28/Student-Record-Management-App">Click
                     Here</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <p>
-                This web application is made to analyse and classify Youtube Dataset. Naïve Bayes Classification
-                Technique and KNN classification are used for determining the category of a particular video, whereas
-                Simple Linear Regression is used to determine the relation between likes and views of particular video.
-                This application was developed using Django Framework.
+                This application will be used for storage and display of student's personal data. It is used for storing
+                and displaying student's marks and attendance. The application is developed using Flutter Technology.
               </p>
             </div>
           </div>
@@ -130,106 +129,39 @@
         </div>
         <div class="row gy-4">
           <div class="portfolio-description">
-            <p style="text-indent:50px">YouTube is an online video-sharing platform which helps content creators reach
-              out to audiences and present their talent. This helps them earn revenue. Therefore, it becomes important
-              that the video of a particular category is recommended to the user, who is interested in that category.
-              This will help the user in finding relevant videos. Also, this will help the content creators increase
-              their subscribers. To increase the number of likes on a video, views play a crucial role and a greater
-              number of views in turn will result in more subscriber count.</p>
-            <p style="text-indent:50px">YouTube videos incorporate a number of different features such as likes, views,
-              comments, titles, etc. Based on relations between these features YouTube segregates the videos into
-              categories. In this project, we apply data mining strategies to find out how YouTube determines the
-              category of a particular video, so that the particular category could be served as a recommendation to the
-              pertinent user. For this purpose, we used Naïve Bayes Classification Technique and KNN classification.
-              Also, we aimed to determine the relation between likes and views of particular video. To achieve this we
-              used Simple Linear Regression.</p>
             <div class="portfolio-info" id="significance">
               <h3>Significance</h3>
               <ul>
-                <li>Data mining strategies are applied to find out how YouTube determines the category of a particular
-                  video, so that the particular category could be served as a recommendation to the pertinent user.</li>
-                <li>The relation between likes and views of particular video is determined</li>
+                <li>
+                  The user can view personal data including attendance and marks
+                </li>
               </ul>
             </div>
             <div class="portfolio-info" id="details">
               <h3>Implementation Details</h3>
               <ul style="list-style-type: disc; padding-left: 20px;">
-                <li>The dataset used represented the day to day list of trending videos in India. It was collected using
-                  the Youtube API</li>
-                <li>This dataset was analysed for predicting category of a particular video</li>
-                <li>This project uses Django Framework</li>
-                <li>This project Matplotlib for plotting the results</li>
-                <li>The dataset includes several days of record with up to 5000 videos. Data includes the attributes as
-                  follows:
+                <li>This project is mainly used to demonstrate the foll. widgets:
                   <ul style="list-style-type: circle; padding-left: 20px;">
                     <div class="row">
                       <div class="col-lg-4">
-                        <li style="margin-top: 10px;">title</li>
-                        <li>trending_date</li>
-                        <li>dislikes</li>
-                        <li>ratings_disabled</li>
+                        <li style="margin-top: 10px;">Card</li>
+                        <li>DataColumn</li>
                       </div>
                       <div class="col-lg-4">
-                        <li style="margin-top: 10px;">channel_title</li>
-                        <li>views</li>
-                        <li>comment_count</li>
-                        <li>category_id</li>
+                        <li style="margin-top: 10px;">List View</li>
+                        <li>DataRow</li>
                       </div>
                       <div class="col-lg-4">
-                        <li style="margin-top: 10px;">publish_time</li>
-                        <li>likes</li>
-                        <li>comments_disabled</li>
+                        <li style="margin-top: 10px;">DataTable</li>
+                        <li>DataCell</li>
                       </div>
                     </div>
                   </ul>
                 </li>
-                <li>The category_id is an integer representing various categories. The category and their category_id is
-                  specified as follows:
-                  <table class="table mt-3">
-                    <thead class="thead-dark">
-                      <tr>
-                        <th scope="col">Category ID</th>
-                        <th scope="col">Category</th>
-                      </tr>
-                    </thead>
-                    <tr>
-                      <td>22</td>
-                      <td>People and Blogs</td>
-                    </tr>
-                    <tr>
-                      <td>23</td>
-                      <td>Comedy</td>
-                    </tr>
-                    <tr>
-                      <td>24</td>
-                      <td>Entertainment</td>
-                    </tr>
-                    <tr>
-                      <td>25</td>
-                      <td>News and Politics</td>
-                    </tr>
-                    <tr>
-                      <td>26</td>
-                      <td>How-to</td>
-                    </tr>
-                    <tr>
-                      <td>27</td>
-                      <td>Education</td>
-                    </tr>
-                    <tr>
-                      <td>28</td>
-                      <td>Science and Technology</td>
-                    </tr>
-                  </table>
-                </li>
-                <li>Naive Bayes Algorithm was used for predicting the category</li>
-                <li>Similarly, KNN clustering algorithm was used</li>
-                <li>Also, linear regression was used for analysing the relation between views and likes on a particular
-                  video</li>
+                <li>JSON format is used for storing the data</li>
+                <li>Stateful widgets are used for rendering UI components</li>
+                <li>Named Routes are used for routing purposes</li>
               </ul>
-              <p style="margin-top: 10px;"><strong>Please Note: </strong>The project was developed for the demonstration
-                of working of these algorithms. Therefore, we don't use any inbuilt package. Rather, we have constructed
-                our own functions for demonstration of these algorithms.</p>
             </div>
           </div>
         </div>
