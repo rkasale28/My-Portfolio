@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Helper Bot</title>
+  <title>Student Record Management</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/R-icon.png" rel="icon">
+  <link href="../assets/img/R-icon.png" rel="icon">
 
   <!-- Google Fonts -->
   <link
@@ -18,15 +18,15 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: iPortfolio - v3.3.0
@@ -46,7 +46,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="../assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Rohit Kasale</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://www.linkedin.com/in/rohit-kasale" class="linkedin"><i class="fab fa-linkedin"></i></a>
@@ -75,7 +75,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Helper Bot</h2>
+          <h2>Student Record Management</h2>
         </div>
 
       </div>
@@ -84,16 +84,26 @@
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-
         <div class="row gy-4 border-bottom">
 
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper-container">
               <div class="swiper-wrapper align-items-center">
-                <video width="100%" autoplay muted>
-                  <source src="assets\video\demo_video.mp4" type="video/mp4">
-                </video>
+
+                <div class="swiper-slide">
+                  <img src="../assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="../assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="../assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                </div>
+
               </div>
+              <div class="swiper-pagination"></div>
             </div>
           </div>
 
@@ -102,15 +112,16 @@
               <h3>Internship Information</h3>
               <ul>
                 <li></li>
-                <li><strong>Category</strong>: Artificial Intelligence, Web Development</li>
-                <li><strong>Github URL</strong>: <a href="https://github.com/rkasale28/helper_bot">Click
+                <li><strong>Category</strong>: Native App Development</li>
+                <li><strong>Github URL</strong>: <a
+                    href="https://github.com/rkasale28/Student-Record-Management-App">Click
                     Here</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <p>
-                This chatbot, integrated with webapp, would act as a centralized platform for donors. This webapp was
-                implemented using Flask Framework, whereas the chatbot was implemented using RASA Framework.
+                This application will be used for storage and display of student's personal data. It is used for storing
+                and displaying student's marks and attendance. The application is developed using Flutter Technology.
               </p>
             </div>
           </div>
@@ -118,42 +129,38 @@
         </div>
         <div class="row gy-4">
           <div class="portfolio-description">
-            <p style="text-indent: 50px;">
-              In August 2019, floods ravaged the districts of Kolhapur, Sangli and Satara. The main problem began after
-              the floods. The essentials including clothes, utensils were flown away. The list even included school
-              supplies.</p>
-
-            <p style="text-indent: 50px">For dealing with this, many helping hands came forward, from all over
-              Maharashtra. These helping hands included sweepers to actors, children to senior citizens.</p>
-
-            <p style="text-indent: 50px">But, the problem was with communication. The information regarding collection
-              centers and which commodities is required needed to be communicated to the donors. This communication was
-              done either through news channels and the social media platforms. Therefore, there was no centralized
-              platform as such.</p>
-
-            <p style="text-indent: 50px">Another problem was regarding uniformity. One commodity was recieved in a huge
-              quantity, whereas another commodity was recieved in negligent quantity. For example, clothes and utensils
-              were collected in large amounts, but on the other hand, there was a shortage of medicines and readymade
-              food packets.</p>
-
-            <p style="text-indent: 50px">Therefore, a decision was made to design a platform, which would act as bridge
-              between donor and needy and ease the process of donations.</p>
-            </p>
             <div class="portfolio-info" id="significance">
               <h3>Significance</h3>
               <ul>
-                <li>The chatbot will provide a centralized platform.</li>
-                <li>The job of the collectors or mediators would ease.</li>
-                <li>These mediators can update the requirements.</li>
-                <li>The donors would easily get to know, the nearby center.</li>
-                <li>Also, the donors would know what exactly is required.</li>
+                <li>
+                  The user can view personal data including attendance and marks
+                </li>
               </ul>
             </div>
             <div class="portfolio-info" id="details">
               <h3>Implementation Details</h3>
-              <ul>
-                <li>The webapp was implemented using Flask Framework</li>
-                <li>The chatbot was implemented using RASA Framework.</li>
+              <ul style="list-style-type: disc; padding-left: 20px;">
+                <li>This project is mainly used to demonstrate the foll. widgets:
+                  <ul style="list-style-type: circle; padding-left: 20px;">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <li style="margin-top: 10px;">Card</li>
+                        <li>DataColumn</li>
+                      </div>
+                      <div class="col-lg-4">
+                        <li style="margin-top: 10px;">List View</li>
+                        <li>DataRow</li>
+                      </div>
+                      <div class="col-lg-4">
+                        <li style="margin-top: 10px;">DataTable</li>
+                        <li>DataCell</li>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+                <li>JSON format is used for storing the data</li>
+                <li>Stateful widgets are used for rendering UI components</li>
+                <li>Named Routes are used for routing purposes</li>
               </ul>
             </div>
           </div>
@@ -183,18 +190,18 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
   <script src="https://kit.fontawesome.com/c81d8799ea.js" crossorigin="anonymous"></script>
 
 </body>

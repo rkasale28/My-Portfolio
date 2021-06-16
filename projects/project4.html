@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Student Record Management</title>
+  <title>Decision Maker</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/R-icon.png" rel="icon">
+  <link href="../assets/img/R-icon.png" rel="icon">
 
   <!-- Google Fonts -->
   <link
@@ -18,15 +18,15 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: iPortfolio - v3.3.0
@@ -46,7 +46,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="../assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Rohit Kasale</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://www.linkedin.com/in/rohit-kasale" class="linkedin"><i class="fab fa-linkedin"></i></a>
@@ -75,7 +75,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Student Record Management</h2>
+          <h2>Decision Maker</h2>
         </div>
 
       </div>
@@ -91,15 +91,15 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img src="../assets/img/portfolio/portfolio-details-1.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <img src="../assets/img/portfolio/portfolio-details-2.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                  <img src="../assets/img/portfolio/portfolio-details-3.jpg" alt="">
                 </div>
 
               </div>
@@ -112,16 +112,15 @@
               <h3>Internship Information</h3>
               <ul>
                 <li></li>
-                <li><strong>Category</strong>: Native App Development</li>
-                <li><strong>Github URL</strong>: <a
-                    href="https://github.com/rkasale28/Student-Record-Management-App">Click
+                <li><strong>Category</strong>: Machine Learning, Web Development</li>
+                <li><strong>Github URL</strong>: <a href="https://github.com/rkasale28/Decision-Maker">Click
                     Here</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <p>
-                This application will be used for storage and display of student's personal data. It is used for storing
-                and displaying student's marks and attendance. The application is developed using Flutter Technology.
+                This web application would predict the number of students who would select a particular subject, when
+                given choices. This project is implemented using Django Framework.
               </p>
             </div>
           </div>
@@ -129,38 +128,26 @@
         </div>
         <div class="row gy-4">
           <div class="portfolio-description">
+            <p style="text-indent: 50px">Our college (K. J. Somaiya College of Engineering) gives us freedom to select
+              one subject of our choice. This subject is called Elective. We are given options of 6 subjects, and we
+              have to select these subjects in order of preference. It has been observed that students wait till end, to
+              know which subject majority of students are choosing. Since, the students would be aware about majority
+              voting beforehand, they can make a proper decision earlier.</p>
             <div class="portfolio-info" id="significance">
               <h3>Significance</h3>
               <ul>
-                <li>
-                  The user can view personal data including attendance and marks
-                </li>
+                <li>Students can get information about majority voting quite earlier</li>
+                <li>Students, with the help of this application, can choose their preferences accordingly</li>
               </ul>
             </div>
             <div class="portfolio-info" id="details">
               <h3>Implementation Details</h3>
-              <ul style="list-style-type: disc; padding-left: 20px;">
-                <li>This project is mainly used to demonstrate the foll. widgets:
-                  <ul style="list-style-type: circle; padding-left: 20px;">
-                    <div class="row">
-                      <div class="col-lg-4">
-                        <li style="margin-top: 10px;">Card</li>
-                        <li>DataColumn</li>
-                      </div>
-                      <div class="col-lg-4">
-                        <li style="margin-top: 10px;">List View</li>
-                        <li>DataRow</li>
-                      </div>
-                      <div class="col-lg-4">
-                        <li style="margin-top: 10px;">DataTable</li>
-                        <li>DataCell</li>
-                      </div>
-                    </div>
-                  </ul>
-                </li>
-                <li>JSON format is used for storing the data</li>
-                <li>Stateful widgets are used for rendering UI components</li>
-                <li>Named Routes are used for routing purposes</li>
+              <ul>
+                <li>This project is implemented using Django Framework</li>
+                <li>The dataset was built by extracting data, after every 12 hours</li>
+                <li>Simple Linear Regression Algorithm was implemented for prediction</li>
+                <li>Used inbuilt scikit learn package to implement Simple Linear Regression</li>
+                <li>Matplotlib was used for plotting graphs</li>
               </ul>
             </div>
           </div>
@@ -190,18 +177,18 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/typed.js/typed.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
   <script src="https://kit.fontawesome.com/c81d8799ea.js" crossorigin="anonymous"></script>
 
 </body>
