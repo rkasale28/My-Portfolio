@@ -697,6 +697,10 @@ section {
   font-size: 15px;
 }
 
+.portfolio-details .portfolio-significance ul li{
+  margin-top: 10px;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
