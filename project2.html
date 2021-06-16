@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Student Report Card Management System</title>
+  <title>HealthCare Project</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -75,7 +75,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Student Report Card Management System</h2>
+          <h2>HealthCare Project</h2>
         </div>
 
       </div>
@@ -86,40 +86,20 @@
       <div class="container">
         <div class="row gy-4 border-bottom">
 
-          <div class="col-lg-4">
+          <div class="col-lg-8">
             <div class="portfolio-details-slider swiper-container">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets\img\internship2\banner1.png" alt="">
+                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets\img\internship2\banner2.png" alt="">
+                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets\img\internship2\banner3.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets\img\internship2\banner4.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets\img\internship2\banner5.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets\img\internship2\banner6.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets\img\internship2\banner7.png" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets\img\internship2\banner8.png" alt="">
+                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
                 </div>
 
               </div>
@@ -127,24 +107,20 @@
             </div>
           </div>
 
-          <div class="col-lg-8">
+          <div class="col-lg-4 align-self-center">
             <div class="portfolio-info">
               <h3>Internship Information</h3>
               <ul>
                 <li></li>
-                <li><strong>Category</strong>: Software Development</li>
-                <li><strong>Work Report</strong>: <a
-                    href="https://drive.google.com/file/d/1KpP7xWn5cwvylQKzxAftnH7E-OX_9suE/view?usp=sharing">Click
+                <li><strong>Category</strong>: Web Development</li>
+                <li><strong>Github URL</strong>: <a href="https://github.com/rkasale28/HealthCare-Project">Click
                     Here</a></li>
-                <li><strong>Github URL</strong>: <a
-                    href="https://github.com/rkasale28/Student-Report-Card-Management">Click Here</a></li>
-                <li><strong>Completion Certificate</strong>: <a href="#">To be added</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <p>
-                This software is made to handle the database representing marks of students and display the
-                marks in the form of report card. This software was developed using C++ and SQL.
+                This web application is developed with the aim of providing hassle-free diagnostics and consultation to
+                patients. This web application was developed using JSP technology, along with mySQL as database.
               </p>
             </div>
           </div>
@@ -152,25 +128,58 @@
         </div>
         <div class="row gy-4">
           <div class="portfolio-description">
-            <div class="portfolio-info" id="significance">
+            <p style="text-indent:50px">This application would simplify the work of doctors, and also assist patients
+              for reaching out to experts for diagnostics and consultation.</p>
+            <div class="portfolio-significance" id="significance">
               <h3>Significance</h3>
-              <ul>
-                <li>This software is efficient in storage and retrieval of student’s marks.</li>
-                <li>Security has been provided.</li>
-                <li>Passwords are accepted in hidden mode (i.e. *****)</li>
-                <li>Insertion and Modification can be done only by the administrator.</li>
-                <li>Only marks are to be inserted. All the calculations are done by system itself.</li>
-                <li>Report cards are generated automatically.</li>
-                <li>The students can view their marks through report card.</li>
+              <ul style="list-style-type: disc;">
+                <li>
+                  The app has three types of users:
+                  <ul style="list-style-type: circle;">
+                    <li>Patients</li>
+                    <li>Doctors</li>
+                    <li>Admin</li>
+                  </ul>
+                </li>
+                <li>
+                  Patients can:
+                  <ul style="list-style-type: circle;">
+                    <li>Input, view and update details such as height, weight, blood group, family history, allergy
+                      history and major illness</li>
+                    <li>Input, view and update emergency contacts</li>
+                    <li>Book appointments for diagnostics and consultation with doctors</li>
+                    <li>View appointment history</li>
+                    <li>Cancel booked appointments</li>
+                    <li>Reschedule booked appointments</li>
+                    <li>View reports' soft copy</li>
+                  </ul>
+                </li>
+                <li>
+                  Doctors can:
+                  <ul style="list-style-type: circle;">
+                    <li>Schedule appointments</li>
+                    <li>Cancel booked appointments</li>
+                    <li>View appointment schedule</li>
+                    <li>View the patients' history, patients' emergency contacts as well as the patients' reports, if
+                      necessary for diagnosis</li>
+                    <li>Fill in a form which requires the prescriptions and the conclusion. The report will then be
+                      auto-generated by the system</li>
+                  </ul>
+                </li>
+                <li>
+                  Admin can verify the doctors
+                </li>
               </ul>
             </div>
             <div class="portfolio-info" id="details">
               <h3>Implementation Details</h3>
               <ul>
-                <li>This software is developed using C++</li>
+                <li>This web application was developed using JSP technology</li>
                 <li>This software used mySQL as database</li>
-                <li>All the operations (i. e. insertion, modification, viewing of report cards) are based on their roll
-                  nos.</li>
+                <li>itextPDF is used for generating reports in form of PDF from forms</li>
+                <li>Mailer servlet is used for mailing purposes</li>
+                <li>ServletOutputStream is used for displaying PDFs</li>
+                <li>InputStream is used for retrieving PDFs from database</li>
               </ul>
             </div>
           </div>
