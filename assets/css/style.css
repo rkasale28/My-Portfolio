@@ -699,47 +699,41 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: #149ddd;
-  border-radius: 50%;
-  transition: 0.5s;
-  border: 1px solid #149ddd;
-}
-
-.services .icon i {
-  color: #fff;
-  font-size: 24px;
-  line-height: 0;
-}
-
-.services .icon-box:hover .icon {
-  background: #fff;
-}
-
-.services .icon-box:hover .icon i {
-  color: #149ddd;
+  width: 60px;
+  height: 90px;
+  border-radius: 10%;
 }
 
 .services .title {
   margin-left: 80px;
   font-weight: 700;
-  margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
-  color: #343a40;
+.services .icon-box h5 {
+  margin-left: 80px;
+  font-weight: 600;
+  font-size: 16px;
+  background: #e4edf9;
+  padding: 5px 15px;
+  width: fit-content;
 }
 
-.services .title a:hover {
-  color: #149ddd;
+.services .icon-box h6 {
+  margin-left: 80px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .services .description {
   margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+}
+
+.golden{
+  background: #F9CF3E;
+  border: 1px solid #F9CF3E;
 }
 
 /*--------------------------------------------------------------
