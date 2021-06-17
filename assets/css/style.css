@@ -911,6 +911,35 @@ section {
   }
 }
 
+#footer_home {
+  position: static;
+  width: 100%;
+  padding: 15px;
+  color: #f4f6fd;
+  font-size: 14px;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: #040b14;
+}
+
+#footer_home .copyright {
+  text-align: center;
+}
+
+#footer_home .credits {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 13px;
+  color: #eaebf0;
+}
+
+@media (max-width: 1199px) {
+  #footer_home{
+    width: auto;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }
